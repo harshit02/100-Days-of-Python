@@ -1,0 +1,7 @@
+def Maximum(a1,a2):
+	if(a1 > a2):
+		print("The Maximum number in between {0} and {1} is {0}" .format(a1,a2))
+	else:
+		print("The Maximum number in between {0} and {1} is {1}" .format(a1,a2))
+        
+Maximum(3,4)
