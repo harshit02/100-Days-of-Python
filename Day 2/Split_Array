@@ -1,0 +1,8 @@
+def split_array(arr,n,k):
+	
+	return arr[k:n+1] + arr[:k]
+	
+a = split_array([1,2,3,4,5],5,2)
+print(a)
+	
+	
